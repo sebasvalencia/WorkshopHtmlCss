@@ -57,12 +57,9 @@ ul{
         arriba derecho abajo izquierdo
 */
 
-
-
 /*
     Llamado de imagenes desde el css
     usar solo para los background 
-    
     background url posicion color no-repeat o repeat-x
     
 */
@@ -85,6 +82,77 @@ ul{
     height: 320px;
 }
     
+
+/*
+    border-collapse: collapse; para quitar el doble linea
+*/
+
+table{
+    border: 2px solid #ccc; /* grosor tipo-linea(solid, dashed, doted) color*/
+    border-collapse: collapse;
+}
+
+.tbl-clase tr td{
+    border: 1px solid #666;
+    padding: 10px; /*los cuatro valores con el mismo valor*/
+    font-family: cursive;
+    font-size: 10px;
+}
+
+
+.tbl-clase thead{
+    background: #f0f020;
+}
+
+
+.tbl-clase thead td{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;  
+    font-family: arial;
+    
+}
+
+.tbl-clase tbody tr td{
+    font-family: cursive;
+    font-size: 14px;
+    color: green;
+}
+
+.tbl-clase tfoot tr td{
+color: #4a4a4a4;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
